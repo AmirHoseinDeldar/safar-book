@@ -17,7 +17,6 @@ body {
 }
 
 @layer utilities {
- 
   .btn_white {
     @apply border-white bg-white px-8 py-3 text-green-50;
   }
@@ -133,7 +132,7 @@ body {
 
   /* Hero */
   .hero-map {
-    @apply absolute right-0 top-0 h-screen w-screen bg-pattern-2 bg-cover bg-center md:-right-28 xl:-top-60;
+    @apply absolute left-0 top-0 h-screen w-screen bg-pattern-2 bg-cover bg-center md:-left-28 xl:-top-60;
   }
 
   /* Camp */
@@ -143,7 +142,7 @@ body {
 
   /* Feature */
   .feature-phone {
-    @apply absolute top-[13%] z-10 hidden max-w-[1500px] rotate-[15deg] md:-left-16 lg:flex  3xl:left-20;
+    @apply absolute top-[13%] z-10 hidden max-w-[1500px] rotate-[15deg] md:-right-16 lg:flex  3xl:right-20;
   }
 
   /* Get App */

@@ -62,7 +62,7 @@ export const FOOTER_LINKS = [
   },
   {
     title: "جامعه ی ما",
-    links: ["Climbing xixixi", "Hiking hilink", "Hilink kinthill"],
+    links: ["سفر بوک شیراز", "سفر بوک تهران", "سفر بوک ایران"],
   },
 ];
 
